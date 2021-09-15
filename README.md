@@ -53,8 +53,6 @@ function App() {
 }
 ```
 
-![Video](https://user-images.githubusercontent.com/70537611/133424892-0853660f-d283-4cc8-87d9-87044ad448e2.mov)
-
 ## License
 
 MIT
