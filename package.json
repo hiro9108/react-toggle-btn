@@ -1,0 +1,28 @@
+{
+  "name": "react-toggle-btn",
+  "version": "1.0.1",
+  "description": "toggle button component",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [
+    "react",
+    "toggle",
+    "button"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiro9108/react-toggle-btn"
+  },
+  "author": "Hiroshi Egawa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  }
+}
