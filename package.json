@@ -1,6 +1,6 @@
 {
   "name": "react-toggle-btn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "toggle button component",
   "main": "./dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hiro9108/react-toggle-btn"
+    "url": "https://github.com/hiro9108/react-toggle-btn.git"
   },
   "author": "Hiroshi Egawa",
   "license": "MIT",
