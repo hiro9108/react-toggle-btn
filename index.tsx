@@ -15,6 +15,9 @@ type Props = {
   FrameHeight?: string;
   CircleWidth?: string;
   CircleHeight?: string;
+  CircleTop?: string;
+  CircleLeft?: string;
+  CircleRight?: string;
   onChange?: (event?: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
@@ -26,6 +29,9 @@ const ToggleButton: React.FC<Props> = ({
   FrameHeight = "2rem",
   CircleWidth = "1.75rem",
   CircleHeight = "1.75rem",
+  CircleTop = "2px",
+  CircleLeft = "2px",
+  CircleRight = "2px",
   onChange,
 }) => {
   return (
@@ -68,8 +74,8 @@ const ToggleButton: React.FC<Props> = ({
         .Check::before {
           content: "";
           position: absolute;
-          top: 2px;
-          left: 2px;
+          top: ${CircleTop};
+          left: ${CircleLeft};
           background-color: ${subColor};
           width: ${CircleWidth};
           height: ${CircleHeight};
@@ -80,8 +86,8 @@ const ToggleButton: React.FC<Props> = ({
         .Check::after {
           content: "";
           position: absolute;
-          top: 2px;
-          right: 2px;
+          top: ${CircleTop};
+          right: ${CircleRight};
           background-color: ${mainColor};
           width: ${CircleWidth};
           height: ${CircleHeight};

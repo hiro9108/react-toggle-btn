@@ -11,6 +11,9 @@ The component takes the following props.
 | `FrameHeight`  | _string_ |
 | `CircleWidth`  | _string_ |
 | `CircleHeight` | _string_ |
+| `CircleTop`    | _string_ |
+| `CircleLeft`   | _string_ |
+| `CircleRight`  | _string_ |
 | `onChange`     | function |
 
 ## Installation
